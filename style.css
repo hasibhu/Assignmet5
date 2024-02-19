@@ -30,10 +30,12 @@ body {
 }
 
 /*  */
-#shadow{
+#shadow, #seatArea{
     box-shadow: 0 -7px 3px -3px #1DD100;
 
+
 }
+
 
 .bottom-dotted-border {
     border-bottom: 2px dashed #968c8c;
