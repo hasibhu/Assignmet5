@@ -127,18 +127,15 @@ document.getElementById("applyBtn").addEventListener('click', function () {
         else {
             alert("invaid Coupon.")
         }
-
     }
     else {
         alert('Please add at least 500')
     }
-
-
 })
 
 
 
-// Passenger data 
+// Passenger data check
 
 function checkInputs() {
     var passengerName = document.getElementById('passengerName').value.trim();
@@ -152,6 +149,9 @@ function checkInputs() {
         nextBtn.disabled = true;
     }
 }
+
+
+// Modal 
 
 function showModal() {
     var modal = document.getElementById('myModal');

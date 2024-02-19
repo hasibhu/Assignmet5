@@ -18,9 +18,9 @@
 <body class=" bg-white pb-96 mt-9 max-w-screen-xl m-auto">
     <header class="bg-blue-200  rounded-xl pb-10">
         <div class=" pt-8 flex flex-row justify-around items-center ">
-            <div>
+            <div class="flex flex-row  justify-center items-center  bg-[#4682B4] w-52 h-16 border gap-2 rounded-3xl">
                 <!-- <h1 class="text-4xl text-black font-bold">P-Ticket</h1> -->
-                <a class="text-4xl text-black font-bold" href="">P-Ticket</a>
+                <a class="text-4xl text-black font-bold" href=""><span class="text-red-800 text-4xl">P</span>-Ticket</a>
             </div>
             <div class="gap-4">
                 <a class="pr-3 text-xl font-bold" href="">Home</a>
@@ -28,12 +28,12 @@
                 <a class="pr-3 text-xl font-bold" href="">Destination</a>
                 <a class="pr-3 text-xl font-bold" href="">Search</a>
             </div>
-            <div class="flex flex-row  justify-center items-center  bg-[#4682B4] w-32 h-12 border gap-2 rounded-lg">
+            <div class="flex flex-row  justify-center items-center  bg-[#4682B4] w-32 h-16 border gap-2 rounded-3xl">
                <span class="font-extrabold">BUS </span> <img src="./images/bus-icon.png" alt=""><sup id="busTicket" class="text-red-600 text-xl">0</sup>
                 <!-- <span id="busTicket">0</span> -->
             </div>
         </div>
-    
+    <!-- flex flex-row justify-center items-center bg-[#4682B4] w-32 h-12 border gap-2 rounded-lg -->
     </header>
 
     <main>
@@ -345,10 +345,12 @@
                                     <label for="phoneNumber" class="block mb-2 text-black font-bold">Phone Number*</label>
                                     <input type="text" id="phoneNumber" class="w-full bg-slate-200 px-3 py-2 border rounded-md" placeholder="Enter Your Phone Number" oninput="checkInputs()">
                                 </div>
+
                                 <div class="mb-4">
                                     <label for="email" class="block mb-2 text-black font-bold">Email ID</label>
                                     <input type="text" id="email" class="w-full bg-slate-200 px-3 py-2 border rounded-md" placeholder="Enter Your Email ID" oninput="checkInputs()">
                                 </div>
+
                                 <div class="flex flex-row justify-center items-center">
                                     <button id="nextBtn"
                                         class="bg-[#1DD100] text-white px-4 py-2 w-80 rounded-md disabled:opacity-50 disabled:pointer-events-none"
@@ -418,8 +420,6 @@
     
 
     <script src="index.js"></script>
-
-    
 </body>
 </html>
 
