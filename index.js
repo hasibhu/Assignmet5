@@ -1,3 +1,5 @@
+
+
 const seats = document.querySelectorAll('.seat');
 const seatDetails = document.getElementById('seatDetails');
 let totalPrice = 0;
